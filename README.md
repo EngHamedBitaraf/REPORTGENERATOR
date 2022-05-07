@@ -12,15 +12,18 @@ You can also use the c ++ multi-platform library called limeReport to build repo
 ### code in qt
  Add **qml , quick ,printsupport ,xml** to .pro
  add library
- 
- `#include  <LimeReport>`
- 
+ ```c++
+ #include  <LimeReport>
+ ```
   add **Mainwindow.h**
   
-  `  LimeReport::ReportEngine  report;`
+  ```c++
+   LimeReport::ReportEngine  report;
+  ```
+  **designReport**
   
-  designReport
-  `report.designReport();`
- 
+  ```c++
+  report.designReport();
+ ````
 	 
 
